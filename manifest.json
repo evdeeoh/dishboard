@@ -1,0 +1,43 @@
+{
+  "name": "dishboard",
+  "short_name": "dishboard",
+  "description": "Your personal meal planner and recipe manager",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f9f8f5",
+  "theme_color": "#3B6D11",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Add Recipe",
+      "short_name": "Add",
+      "description": "Add a new recipe",
+      "url": "/?tab=add",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Week Planner",
+      "short_name": "Planner",
+      "description": "View your week planner",
+      "url": "/?tab=planner",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
